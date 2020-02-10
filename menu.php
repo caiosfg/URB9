@@ -6,7 +6,6 @@
 <script src="https://kit.fontawesome.com/ea21b4e337.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
 <div class="p-3 mb-2 bg-light text-dark">
 <a class="logo" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg"></a>
 <div class="nav" style="margin-left: 100px; margin-top: 10px">

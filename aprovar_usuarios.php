@@ -58,7 +58,7 @@
        <td><?php echo $status ?></td>
        <td>
           <a class="btn btn-outline-warning btn-sm" href="_aprovar_usuario.php?id=<?php echo $id ?>&status=<?php echo $status ?>" role="button"><i class="fas fa-thumbs-up"></i>&nbsp;Aprovar</a>
-          <a class="btn btn-outline-danger btn-sm" href="_deletar_usuario.php?id=<?php echo $id ?>&status=<?php echo $status ?>" role="button"><i class="fas fa-window-close"></i>&nbsp;Delete</a>
+          <a class="btn btn-outline-danger btn-sm" href="_deletar_usuario.php?id=<?php echo $id ?>" role="button"><i class="fas fa-window-close"></i>&nbsp;Delete</a>
        </td>
       </tr>  
     <?php 

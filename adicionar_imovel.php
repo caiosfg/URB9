@@ -17,7 +17,6 @@
 </style>
 </head>
 <body>
-
 <div class="p-3 mb-2 bg-light text-dark">
 <a class="logo" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg" alt=""></a>
     <h4 align="center" id="title">Cadastramento de Imóveis</h4>
