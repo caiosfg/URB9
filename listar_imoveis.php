@@ -23,7 +23,7 @@
 
  <div class="container" id="listContainer" style="margin-top: 30px">
       <div style="text-align:right">
-        <a href="index.php" role="button" class="btn btn-danger btn-sm ">Voltar</a>
+        <a href="menu.php" role="button" class="btn btn-danger btn-sm ">Voltar</a>
       </div>
         <h4>Base de Imóveis</h4>
     <br /> 

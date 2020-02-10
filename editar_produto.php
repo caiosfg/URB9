@@ -1,7 +1,7 @@
 <?php
 
 include 'conexao.php';
-echo $id = $_GET['id'];
+$id = $_GET['id'];
 
 ?>
 <!DOCTYPE html>
@@ -71,6 +71,8 @@ echo $id = $_GET['id'];
                 <select class="form-control" name="regiao" value="<?php echo $regiao ?>">
                     <option>Zona Oeste</option>
                     <option>Zona Sul</option>
+                    <option>Zona Norte</option>
+                    <option>Zona Leste</option>
                 </select>
         </div>
         <div class="form-group">

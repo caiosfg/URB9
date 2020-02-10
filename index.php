@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Menu</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 <script src="https://kit.fontawesome.com/ea21b4e337.js" crossorigin="anonymous"></script>
+<style type="text/css">
+ #tamanho{
+     width: 400px;
+     font-weight: bold;
+     color: #f84b00;
+     -webkit-box-shadow: 10px 10px 21px 0px rgba(219,128,112,1);
+     -moz-box-shadow: 10px 10px 21px 0px rgba(219,128,112,1);
+      box-shadow: 10px 10px 21px 0px rgba(219,128,112,1);
+  }  
+</style>
 </head>
 <body>
 
@@ -11,29 +23,25 @@
 <a class="logo" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg" alt=""></a>
 </div>
 
-<div class="container" style="margin-top:70px">
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="./imagens/forsale.jpg" height="239" width="180"  alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Cadastrar Imóvel </h5>
-      <p class="card-text">Registre aqui novos imóveis para controle de nossos registros.</p>
-    </div>
-    <div class="card-footer">
-      <a class="btn btn-danger" href="adicionar_imovel.php" role="button"><i class="fas fa-door-open"></i>&nbsp;Cadastrar</a>
-    </div>
+<div class="container" id="tamanho" style="margin-top:50px;border-radius: 15px; border: 2px solid #E30428">
+  <div style="padding: 10px">
+  <center>
+  <img src="./imagens/housesafe.png" width="125px" height="125px">
+  </center>
+    <form>
+        <div class="form-group">
+            <label>Usuário</label>
+            <input type="text" name="usuario" class="form-control" placeholder="Usuário" autocomplete="off" required>
+        </div>    
+        <div class="form-group">
+            <label>Senha</label>
+            <input type="password" name="usuario" class="form-control" placeholder="Senha" autocomplete="off" required>
+        </div>    
+    </form>
+    <div style="text-align: right;">
+            <button type="submit" class="btn btn-danger btn-sm">Entrar</button>
+    </div> 
   </div>
-  <div class="card">
-    <img class="card-img-top" src="./imagens/sold.jpg" height="239" width="180" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Listagem de Imóveis</h5>
-      <p class="card-text">Consulte, edite e exclua os registros desejados.</p>
-    </div>
-    <div class="card-footer">
-      <a class="btn btn-danger" href="listar_imoveis.php" role="button"><i class="fas fa-door-closed"></i>&nbsp;Consultar</a>
-    </div>
-  </div>
-</div>
 </div>
 
 

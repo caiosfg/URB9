@@ -26,7 +26,7 @@
 
  <div class="container" id="cdContainer" style="margin-top: 30px">
     <div style="text-align:right">
-        <a href="index.php" role="button" class="btn btn-danger btn-sm ">Voltar</a>
+        <a href="menu.php" role="button" class="btn btn-danger btn-sm ">Voltar</a>
     </div>
     <form action="_inserir_imovel.php" method="post">
         <div class="form-group">
@@ -53,11 +53,13 @@
                 <select class="form-control" name="regiao" required>
                     <option>Zona Oeste</option>
                     <option>Zona Sul</option>
+                    <option>Zona Norte</option>
+                    <option>Zona Leste</option>
                 </select>
         </div>
         <div class="form-group">
             <label>Valor</label>
-            <input type="number" class="form-control" placeholder="Valor pretendido" name="valor" required>
+            <input type="number" class="form-control" placeholder="Ex.: 1000.00" name="valor" required>
         </div>
         <div style="text-align: right;">
             <button type="money" id="botao" align="right" class="btn btn-sm">Registrar</button>
