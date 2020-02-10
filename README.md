@@ -1,5 +1,5 @@
 *Project*
-```project made for URB9. For more details see the page: http://planetaagua.online/URB9/```
+```project made for URB9.```
 ```user=urb9@urb9.com```
 ```senha=urb9```
 
