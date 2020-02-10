@@ -1,8 +1,9 @@
 <?php
 $servername = "localhost";
-$database = "property_bd";
+$database = "controldb";
 $username ="root";
 $password ="";
 
 $conexao= mysqli_connect($servername, $username, $password, $database);
 
+?>
