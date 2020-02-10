@@ -16,12 +16,15 @@
 <body>
 
 <div class="p-3 mb-2 bg-light text-dark">
-<a class="logo" href="__" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg" alt=""></a>
+<a class="logo" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg" alt=""></a>
     <h4 align="center" id="title">Listagem de Imóveis</h4>
 </div>
 
 
  <div class="container" id="listContainer" style="margin-top: 30px">
+      <div style="text-align:right">
+        <a href="index.php" role="button" class="btn btn-danger btn-sm ">Voltar</a>
+      </div>
         <h4>Base de Imóveis</h4>
     <br /> 
     <table class="table">
