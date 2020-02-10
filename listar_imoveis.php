@@ -62,9 +62,10 @@
        <td><?php echo $regiao ?></td>
        <td><?php echo $valor ?></td>
        <td>
-          <a class="btn btn-outline-warning" href="editar_produto.php?id=<?php echo $id ?>" role="button"><i class="fas fa-home"></i>&nbsp;Editar</a>
+          <a class="btn btn-outline-warning btn-sm" href="editar_produto.php?id=<?php echo $id ?>" role="button"><i class="fas fa-home"></i>&nbsp;Editar</a>
+          <a class="btn btn-outline-danger btn-sm" href="deletar_imovel.php?id=<?php echo $id ?>" role="button"><i class="fas fa-house-damage"></i>&nbsp;Delete</a>
        </td>
-       
+      </tr>  
     <?php 
         }
     ?>
