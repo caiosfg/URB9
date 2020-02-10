@@ -1,7 +1,7 @@
 *Project*
-```project made for URB9. For more details see the page: http://planetaagua.online/URB9/
-user=urb9@urb9.com
-senha=urb9```
+```project made for URB9. For more details see the page: http://planetaagua.online/URB9/```
+```user=urb9@urb9.com```
+```senha=urb9```
 
 *Pre Requisites*
 ```Copy de db for your SGBD, and set the conexao.php for your BD access```
