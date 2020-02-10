@@ -28,7 +28,11 @@
   <img src="./imagens/housesafe.png" width="125px" height="125px">
   <h5>Cadastro de Usuário</h5>  
   </center>
-    <form>
+   <div class="container" id="cdContainer" style="margin-top: 30px">
+     <div style="text-align:right">
+        <a href="index.php" role="button" class="btn btn-danger btn-sm ">Voltar</a>
+    </div>
+    <form action="_insert_usuario.php" method="post"> 
         <div class="form-group">
             <label>Nome Usuário</label>
             <input type="text" name="nomeusuario" class="form-control" placeholder="Nome Completo" autocomplete="off" required>
