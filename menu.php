@@ -8,10 +8,14 @@
 <body>
 
 <div class="p-3 mb-2 bg-light text-dark">
-<a class="logo" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg" alt=""></a>
+<a class="logo" title="URB9"><img class="logo-urb9" src="https://urb9.com.br/assets/imagens/site/urbo9hcor.svg"></a>
+<div class="nav" style="margin-left: 100px; margin-top: 10px">
+      <a class="btn btn-sm btn-outline-secondary" href="aprovar_usuarios.php" role="button">Aprovar Usuarios</a>
 </div>
 
-<div class="container" style="margin-top:70px">
+</div>
+
+<div class="container" style="margin-top:60px">
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="./imagens/forsale.jpg" height="239" width="180"  alt="Card image cap">
